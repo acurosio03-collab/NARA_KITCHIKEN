@@ -1,10 +1,13 @@
+window.SUPABASE_URL = "https://wwnrcdotwjxgterrhprm.supabase.co";
+window.SUPABASE_ANON_KEY = "sb_publishable_vWecM2H8Gvurp3v4EchPRg_WCexKyqk";
+
 window.dbReady = false;
 window.db = null;
 
 (function () {
   const ok =
-    window.SUPABASE_URL = "https://wwnrcdotwjxgterrhprm.supabase.co";
-window.SUPABASE_ANON_KEY = "sb_publishable_vWecM2H8Gvurp3v4EchPRg_WCexKyqk";
+    !!window.SUPABASE_URL &&
+    !!window.SUPABASE_ANON_KEY;
 
   if (!ok) return;
 
@@ -19,6 +22,8 @@ window.SUPABASE_ANON_KEY = "sb_publishable_vWecM2H8Gvurp3v4EchPRg_WCexKyqk";
     );
 
     window.dbReady = true;
+
+    console.log("Supabase berhasil terhubung!");
   };
 
   s.onerror = () => {
