@@ -1,8 +1,8 @@
 window.dbReady=false; window.db=null;
 (function(){
  const ok=window.SUPABASE_URL && window.SUPABASE_ANON_KEY &&
- !window.SUPABASE_URL.includes("YOUR-PROJECT") &&
- !window.SUPABASE_ANON_KEY.includes("YOUR_SUPABASE");
+ !window.SUPABASE_URL.includes("https://wwnrcdotwjxgterrhprm.supabase.co") &&
+ !window.SUPABASE_ANON_KEY.includes("sb_publishable_vWecM2H8Gvurp3v4EchPRg_WCexKyqk");
  if(!ok)return;
  const s=document.createElement("script");
  s.src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2";
