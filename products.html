@@ -1,0 +1,62 @@
+<!doctype html><html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Menu — NARA KITCHEN</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary-fixed": "#ffdbd2", "inverse-on-surface": "#f3f0ef", "tertiary-fixed-dim": "#f7bb7e",
+        "secondary-fixed": "#d9e7d2", "on-primary-fixed": "#3c0800", "on-surface-variant": "#c9afa7",
+        "surface": "#1c1b1b", "tertiary-fixed": "#ffdcbd", "on-secondary-fixed": "#131e11",
+        "surface-container": "#2c2a2a", "on-surface": "#fcf9f8", "on-tertiary-fixed-variant": "#663d0b",
+        "secondary-fixed-dim": "#bdcbb6", "error": "#ba1a1a", "on-secondary": "#ffffff",
+        "surface-container-highest": "#383535", "on-primary-fixed-variant": "#881f01", "on-primary-container": "#fffcff",
+        "secondary": "#556251", "surface-container-low": "#242222", "secondary-container": "#d6e4cf",
+        "background": "#121212", "on-secondary-fixed-variant": "#3e4a3b", "inverse-primary": "#a63416",
+        "tertiary-container": "#9b6a35", "on-secondary-container": "#596655", "surface-bright": "#383535",
+        "surface-dim": "#121212", "primary-container": "#c84c2c", "tertiary": "#7f521f", "on-primary": "#ffffff",
+        "surface-container-high": "#312f2f", "on-error-container": "#93000a", "surface-variant": "#443f3e",
+        "surface-container-lowest": "#1c1b1b", "surface-tint": "#aa3618", "on-tertiary-container": "#fffbff",
+        "error-container": "#ffdad6", "on-background": "#fcf9f8", "on-tertiary": "#ffffff", "on-error": "#ffffff",
+        "outline-variant": "#58413c", "primary-fixed-dim": "#ffb4a2", "primary": "#ffb4a2",
+        "inverse-surface": "#fcf9f8", "on-tertiary-fixed": "#2c1600", "outline": "#8c716a"
+      },
+      borderRadius: { DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem" },
+      spacing: { xxl: "64px", xs: "4px", "margin-mobile": "16px", sm: "8px", unit: "4px", xl: "40px", md: "16px", gutter: "20px", lg: "24px", "margin-desktop": "48px" },
+      fontFamily: {
+        "body-md": ["Inter"], "display-lg-mobile": ["Playfair Display"], "body-lg": ["Inter"], "mono-data": ["Inter"],
+        "label-caps": ["Inter"], "headline-sm": ["Playfair Display"], "headline-md": ["Playfair Display"],
+        "display-lg": ["Playfair Display"], "body-sm": ["Inter"]
+      },
+      fontSize: {
+        "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400", letterSpacing: "0.01em" }],
+        "display-lg-mobile": ["36px", { lineHeight: "1.2", fontWeight: "700" }],
+        "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+        "mono-data": ["13px", { lineHeight: "1", letterSpacing: "-0.01em", fontWeight: "500" }],
+        "label-caps": ["12px", { lineHeight: "1", letterSpacing: "0.1em", fontWeight: "600" }],
+        "headline-sm": ["24px", { lineHeight: "1.3", fontWeight: "700" }],
+        "headline-md": ["32px", { lineHeight: "1.2", fontWeight: "700" }],
+        "display-lg": ["48px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
+        "body-sm": ["14px", { lineHeight: "1.5", fontWeight: "400", letterSpacing: "0.01em" }]
+      }
+    }
+  }
+}
+</script>
+<style>
+.no-scrollbar::-webkit-scrollbar{display:none}
+.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}
+</style>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen pt-20 pb-20 md:pb-0">
+<div id="app"></div>
+<script src="js/supabase-config.js"></script><script src="js/data.js"></script><script src="js/supabase.js"></script><script src="js/app.js"></script>
+</body></html>
